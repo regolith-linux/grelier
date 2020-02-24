@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 10),
 Standards-Version: 4.1.2
 Homepage: https://github.com/regolith-linux/grelier
 
-Package: grelier
+Package: libgrelier-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: i3 IPC library
