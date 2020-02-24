@@ -21,7 +21,7 @@ grelier_lib = library(
 grelier_dep = declare_dependency(link_with: grelier_lib,
                              include_directories: include_directories('.'))
 
-pkg.generate(grelier_lib)
+# pkg.generate(grelier_lib)
 
 executable(
     'grelier', 
